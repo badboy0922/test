@@ -1,5 +1,5 @@
 ./configure --prefix=/usr \
-            --sysconfdir=/etc \
+			--sysconfdir=/etc \
             --libexecdir=/usr/lib \
             --with-ipsecdir=/usr/lib/strongswan \
             --enable-aesni \
