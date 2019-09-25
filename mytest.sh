@@ -6,8 +6,6 @@
             --enable-chapoly \
             --enable-cmd \
             --enable-curl \
-#            --enable-dhcp \
-#            --enable-farp \
             --enable-eap-dynamic \
             --enable-eap-identity \
             --enable-eap-md5 \
@@ -32,3 +30,6 @@
             --disable-sha1 \
             --disable-sha2 \
             --disable-static && \
+			make && \
+make install && \
+cd
